@@ -15,10 +15,7 @@ const FlightList = ({flights, transfer}) => {
         setAddFlights([...addFlights, ...flights.slice(arrayIndex, arrayIndex + 5)])
         setArrayIndex(prevState => prevState + 5);
     }
-    console.log(addFlights);
 
-    
-    console.log(length);
     return (
         <div>
             {
