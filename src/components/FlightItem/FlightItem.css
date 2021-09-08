@@ -26,14 +26,23 @@
 }
 
 .flight__info {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .flight__date {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0 50px;
+    font-size: 20px;
+}
+
+.flight__date-duration {
     font-size: 18px;
+}
+
+.flight__date-arr span {
+    margin-right: 5px;
 }
 
 .flight__transfer {

@@ -1,0 +1,7 @@
+.more-btn {
+    display: block;
+    margin: 20px auto;
+    height: 30px;
+    width: 20%;
+    cursor: pointer;
+}
