@@ -1,0 +1,92 @@
+.wrapper {
+    padding: 20px;
+    border: 1px solid green;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    background-color: #0087c9;
+    color: #fff;
+}
+
+.header__price {
+    text-align: right;
+}
+
+.header__price p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.header__price span {
+    font-size: 14px;
+}
+
+.flight__info {
+    font-size: 18px;
+}
+
+.flight__date {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    font-size: 18px;
+}
+
+.flight__transfer {
+    position: relative;
+    color: #ffb168;
+    text-align: center;
+    font-size: 18px;
+}
+.flight__transfer::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    height: 1px;
+    width: 30%;
+    background-color: #ececec;
+}
+
+.flight__transfer::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 13%;
+    height: 1px;
+    width: 30%;
+    background-color: #ececec;
+}
+
+.flight__airline {
+
+}
+
+.flight-btn {
+    display: block;
+    width: 100%;
+    height: 35px;
+    border: 0;
+    background-color: #ffb168;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #0087c9;
+}
+
+.blue {
+    color: #0087c9;
+}
+
+.gray {
+    background-color:#ececec;
+}

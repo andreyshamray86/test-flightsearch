@@ -35,11 +35,11 @@ const Toolbar = () => {
                 <h4 className="toolbar-price__title">Цена</h4>
                 <div className="toolbar-price__item">
                     <label htmlFor="price">От</label> 
-                    <input type="text" name="price-from" id="price" />
+                    <input type="number" name="price-from" id="price" />
                 </div>
                 <div className="toolbar-price__item">
                     <label htmlFor="price">До</label> 
-                    <input type="text" name="price-to" id="price" /> 
+                    <input type="number" name="price-to" id="price" /> 
                 </div>
             </div>
             <div className="toolbar-airlines">

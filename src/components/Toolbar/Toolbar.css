@@ -1,8 +1,27 @@
 .toolbar {
     width: 20%;
+    padding: 20px;
     border: 1px solid red;
 }
 
-.toolbar-sort__item {
-   
+.toolbar-filter {
+    margin-top: 40px;
+}
+
+.toolbar-price {
+    margin-top: 40px;
+}
+
+.toolbar-price__item {
+    margin-bottom: 10px;
+
+}
+
+.toolbar-price__item label {
+    margin-right: 5px;
+
+}
+
+.toolbar-airlines {
+    margin-top: 40px;
 }

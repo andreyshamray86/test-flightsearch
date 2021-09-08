@@ -1,11 +1,13 @@
 import React from 'react'
 
+import FlightList from '../FilghtList/FlightList'
+
 import './Content.css'
 
 const Content = () => {
     return (
         <div className='content'>
-            <h2>Content</h2>
+            <FlightList/>
         </div>
     )
 }
